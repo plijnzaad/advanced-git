@@ -1,4 +1,4 @@
-setwd("/Users/philip/Desktop/RSGworkshop/")
+setwd("~/git/advanced-git")
 
 hsf1 <- read.table("hsf1.type.txt", stringsAsFactors=TRUE)
 ## Data from de Jonge et al., EMBO J. 2016. Rownames are names of target
