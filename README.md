@@ -32,3 +32,7 @@ TFIID: housekeeping genes) is given in the last column)
 # Branching models:
 
 * Good advise to be found on  http://endoflineblog.com/oneflow-a-git-branching-model-and-workflow#when-not-to-use-oneflow
+
+# When to issue a pull request?
+
+* http://engineering.leadgenius.com/post/129799259649/the-pull-request-review-checklist
