@@ -1,0 +1,56 @@
+## this file contains your git configurations, feel free to use them.
+## They are also accessible through the command git config
+
+[user]
+	name = Philip Lijnzaad
+	email = plijnzaad@gmail.com
+
+[core]
+	editor = emacsclient
+	excludesfile = ~/.config/git/ignore
+	autocrlf = input
+
+[branch "master"]
+	rebase = true
+
+[color]
+	ui = false
+	status = false
+	branch = false
+        interactive = true
+        diff = false
+        
+[diff]
+	tool = tkdiff
+
+[push]
+	default = simple # (available only since 1.7.10.2)
+
+[credential]
+	helper = cache --timeout=3600
+
+[merge]
+	tool = tkdiff
+
+[alias]
+        br = branch
+        brl = branch -avv
+        st = status
+        co = checkout
+        tree = log --oneline --decorate --graph
+        logv = log --name-status
+        forcepush = push --force-with-lease # (since version 1.8.5)
+        reflogv = reflog --pretty=reflog
+
+[pretty]
+        reflog = %C(auto)%h %<|(20)%gd %C(blue)%cr%C(reset) %gs (%s)
+                  
+[gui]
+	editor = emacsclient --no-wait\n
+	trustmtime = true
+	matchtrackingbranch = true
+[gc]
+	autoDetach = false
+	auto = 0
+[pull]
+	rebase = true #  (since 1.7.9)
