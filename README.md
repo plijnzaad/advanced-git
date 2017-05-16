@@ -21,7 +21,7 @@ TFIID: housekeeping genes) is given in the last column)
 
 * https://git-for-windows.github.io/
 
-# SmartGit client
+# SmartGit client:
 
 * http://www.syntevo.com/smartgit/
 
@@ -29,6 +29,6 @@ TFIID: housekeeping genes) is given in the last column)
 
 * https://help.github.com/articles/associating-text-editors-with-git/
 
-# Branching model
+# Branching models:
 
 * Good advise to be found on  http://endoflineblog.com/oneflow-a-git-branching-model-and-workflow#when-not-to-use-oneflow
